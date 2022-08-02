@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<section class="bg-gray200 pt-5 pb-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- 注意这里原来的代码是 col-md-8 ，导致拖动割裂 -->
+      <div class="col-md-11">
+        <article class="card">
+          {% if page.image %}
+          <img class="card-img-top mb-2" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ page.image
+            | absolute_url }}{% endif %}" alt="{{ page.title }}">
+          {% endif %}
+
+          <div class="card-body">
+            <h1 class="display-4">
+              {{page.title}}
+            </h1>
+            <small class="text-muted d-block mb-3">
+              {% unless page.metadate == "hide" %}
+              {{ page.date | date: '%B %d, %Y' }}
+              {% endunless %}
+              {% if page.author %}
+              , by {{page.author}}
+              {% endif %}
+            </small>
+            <ul class="navbar-nav nav-wrap mb-3">
+              {% if page.dupan%}
+              <li><a class="btn btn-sm btn-secondary" target="_blank" href="{{page.dupan}}">度盘</a></li>
+              {% endif %}
+              {% if page.tongpan%}
+              <li><a class="btn btn-sm btn-secondary" target="_blank" href="{{page.tongpan}}">通城 {{ page.tongpan | slice: -4, 4 }}</a></li>
+              {% endif %}
+              {% if page.maopan%}
+              <li><a class="btn btn-sm btn-secondary" target="_blank" href="{{page.maopan}}">飞猫</a></li>
+              {% endif %}
+              {% if page.katfile%}
+              <li><a class="btn btn-sm btn-secondary" target="_blank" href="{{page.katfile}}">KatFile</a></li>
+              {% endif %}
+            </ul>
+
+            {% if page.company %}
+            <table class="table table-bordered">
+              <tr>
+                <th>游戏公司</th>
+                <th>运行环境</th>
+                <th>语言</th>
+              </tr>
+              <tr>
+                <td>{{page.company}}</td>
+                <td>{{page.os}}</td>
+                <td>{{page.language}}</td>
+              </tr>
+            </table>
+            {% endif %}
+            
+            {{ content }}
+
+            {% for tag in page.tags %}
+            <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">
+              # {{ tag | downcase }}
+            </a>
+            {% endfor %}
+          </div>
+        </article>
+
+        <div class="PageNavigation">
+          {% if page.next.url %}
+          <a class="prev" href="{{site.baseurl}}{{page.next.url}}"><i class="fa fa-angle-left"></i> </a>
+          {% endif %}
+          {% if page.previous.url %}
+          <a class="next" href="{{site.baseurl}}{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+---
+permalink: /404.html
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+  <p><strong>请求的页面未找到 :(</strong></p>
+  <p>来看看最新的内容吧：</p>
+  <h4><a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a></h4>
+  {% if site.posts.first.image %}
+  <p> <a href="{{site.posts.first.url}}">
+      <img class="card-img-top mb-2" src="{{site.posts.first.image}}" alt="{{ site.posts.first.title }}">
+    </a> </p>
+  {% endif %}
+</div>

@@ -1,1 +1,44 @@
-theme: jekyll-theme-cayman
+# Site
+title: 'MGRACG'
+description: ''
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+email: 'MGRACG@outlook.com'
+
+include: ["_pages"]
+permalink: /:year/:title.html
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
