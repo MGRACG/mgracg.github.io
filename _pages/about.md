@@ -1,7 +1,7 @@
 ---
 title: 关于
 permalink: about.html
-image: https://s2.loli.net/2022/07/31/zm7pTWbwAsyq9Vn.jpg
+image: https://s2.loli.net/2022/08/03/At7Nhi9COZ8dnzw.jpg
 ---
 
 之前我想重温一下《秽翼的尤斯蒂娅》，死活都找不到，不是被爆破，就是要花钱买会员。
@@ -46,10 +46,6 @@ bzip2压缩太不常用了，所以无法在线预览，很适合上传到网盘
 
 - 邮箱：[MGRACG@outlook.com](mailto:MGRACG@outlook.com)
 - 提交[ISSUE](https://github.com/MGRACG/mgracg.github.io/issues)
-
-## 鸣谢
-
-参考的Jekyll 模板：[template-pintereso-bootstrap-jekyll](https://wowthemesnet.github.io/template-pintereso-bootstrap-jekyll/index.html)
 
 <hr/>
 

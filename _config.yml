@@ -18,7 +18,6 @@ plugins:
  
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
@@ -30,8 +29,7 @@ defaults:
       path: "_pages"
     values:
       layout: page
-      
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
@@ -41,4 +39,4 @@ paginate: 20
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude: [README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, template.md]

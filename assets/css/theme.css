@@ -520,5 +520,6 @@ img.custom-logo {
 }
 
 .nav-wrap li {
-  margin-right: 0.8em;
+  margin-right: 0.5em;
+  margin-bottom: 0.3em;
 }

@@ -9,7 +9,7 @@ company: ensemble
 os: Windows
 language: 中文
 image: https://s2.loli.net/2022/08/02/p3i1ARQmeYo4VnM.jpg
-dupan: https://pan.baidu.com/s/1NrlycrR1LIMw2oL_T4pp8w?pwd=dw9x
+dupan: https://pan.baidu.com/s/1aGiMmwrQ801taBqlmidmBQ?pwd=gtfy
 tongpan: https://url42.ctfile.com/f/37730542-631513369-7fa121?p=8807
 maopan: https://jmj.cc/s/37gswtzl
 katfile: https://katfile.com/bw3oiv9zgixj/2022-08-02.rar.html
@@ -41,6 +41,8 @@ katfile: https://katfile.com/bw3oiv9zgixj/2022-08-02.rar.html
 骑士白钟神乐（白鐘神楽），团长莲城寺舞（蓮城寺舞），
 与后辈雨之森唯（雨ノ森ゆい）等人加深关系的同时，也不被怀疑地完成了任务。
 
+![2022-08-02-01.jpg](https://s2.loli.net/2022/08/02/bhIjKmuwY4c3raG.jpg)
+
 但是，因为一件突发事件，迅的真实身份被暴露给了卡农。
 原形毕露就意味着任务失败，
 
@@ -49,6 +51,5 @@ katfile: https://katfile.com/bw3oiv9zgixj/2022-08-02.rar.html
 作为不告发迅的真实身份的代替，被告知了成为忍者的愿望。
 究竟迅能否平安无事地完成任务呢？
 
-![2022-08-02-01.jpg](https://s2.loli.net/2022/08/02/bhIjKmuwY4c3raG.jpg)
 
 ![2022-08-02-03.jpg](https://s2.loli.net/2022/08/02/T5fOmSu9vd78qGA.jpg)
