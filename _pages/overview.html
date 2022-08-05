@@ -21,7 +21,7 @@ permalink: "/overview.html"
         <tr>
             <td><a href="post.url">{{post.title}}</a></td>
             <td>{{post.categories}}</td>
-            <td>{{post.tags | join: "，" }}</td>
+            <td>{{post.tags | join: " " }}</td>
             <td>{{post.language}}</td>
             <td>{% if post.dupan%}<a target="_blank" href="{{post.dupan}}">度</a>{% endif %}</td>
             <td>{% if post.tongpan%}<a target="_blank" href="{{post.tongpan}}">{{ post.tongpan | slice: -4, 4
