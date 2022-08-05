@@ -19,7 +19,7 @@ permalink: "/overview.html"
         </tr>
         {% for post in site.posts reversed %}
         <tr>
-            <td><a href="post.url">{{post.title}}</a></td>
+            <td><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></td>
             <td>{{post.categories}}</td>
             <td>{{post.tags | join: " " }}</td>
             <td>{{post.language}}</td>
