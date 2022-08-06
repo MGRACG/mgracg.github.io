@@ -4677,8 +4677,8 @@ input[type="button"].btn-block {
         position: absolute; }
       /* line 165, node_modules/bootstrap/scss/_navbar.scss */
       .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 0.7rem;
-        padding-left: 0.7rem; }
+        padding-right: 0.6rem;
+        padding-left: 0.6rem; }
     /* line 172, node_modules/bootstrap/scss/_navbar.scss */
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
