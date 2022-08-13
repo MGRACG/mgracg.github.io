@@ -12,9 +12,7 @@ permalink: "/overview.html"
             <th>类型</th>
             <th>标签</th>
             <th>语言</th>
-            <th>度盘</th>
             <th>通城</th>
-            <th>飞猫</th>
             <th>KatFile</th>
         </tr>
         {% for post in site.posts reversed %}
@@ -23,10 +21,7 @@ permalink: "/overview.html"
             <td>{{post.categories}}</td>
             <td>{{post.tags | join: " " }}</td>
             <td>{{post.language}}</td>
-            <td>{% if post.dupan%}<a target="_blank" href="{{post.dupan}}">度</a>{% endif %}</td>
-            <td>{% if post.tongpan%}<a target="_blank" href="{{post.tongpan}}">{{ post.tongpan | slice: -4, 4
-                    }}</a>{% endif %}</td>
-            <td>{% if post.maopan%}<a target="_blank" href="{{post.maopan}}">猫</a>{% endif %}</td>
+            <td>{% if post.tongpan%}<a target="_blank" href="{{post.tongpan}}">{{ post.tongpan | slice: -4, 4 }}</a>{% endif %}</td>
             <td>{% if post.katfile%}<a target="_blank" href="{{post.katfile}}">Kat</a>{% endif %}</td>
         </tr>
         {% endfor %}
