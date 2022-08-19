@@ -7,7 +7,7 @@ categories: ADV
 tags: 纯爱 校园 异能
 company: Key
 os: Windows
-language: 中文
+language: 汉化
 image:   https://img.gejiba.com/images/1523b3f370e7c49d8cb6c279cc9f474c.jpg
 dupan:   https://pan.baidu.com/s/1G6suUk33S8GGhjpEoEmxWg?pwd=e5p9
 tongpan: https://url42.ctfile.com/f/37730542-633722579-b2675c?p=8807

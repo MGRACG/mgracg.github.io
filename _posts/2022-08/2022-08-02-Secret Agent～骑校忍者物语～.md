@@ -7,7 +7,7 @@ categories: ADV
 tags: 纯爱 校园 骑士
 company: ensemble
 os: Windows
-language: 中文
+language: 汉化
 image: https://s2.loli.net/2022/08/02/p3i1ARQmeYo4VnM.jpg
 dupan: https://pan.baidu.com/s/1aGiMmwrQ801taBqlmidmBQ?pwd=gtfy
 tongpan: https://url42.ctfile.com/f/37730542-631513369-7fa121?p=8807
