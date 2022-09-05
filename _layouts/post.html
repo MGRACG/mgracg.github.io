@@ -38,21 +38,6 @@ layout: default
               <li><a class="btn btn-sm btn-secondary" target="_blank" href="{{page.katfile}}">KatFile</a></li>
               {% endif %}
             </ul>
-
-            {% if page.company %}
-            <table class="table table-bordered">
-              <tr>
-                <th>游戏公司</th>
-                <th>运行环境</th>
-                <th>语言</th>
-              </tr>
-              <tr>
-                <td>{{page.company}}</td>
-                <td>{{page.os}}</td>
-                <td>{{page.language}}</td>
-              </tr>
-            </table>
-            {% endif %}
             
             {{ content }}
 

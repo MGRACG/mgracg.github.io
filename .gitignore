@@ -5,5 +5,8 @@ _site
 .jekyll-metadata
 vendor
 
+# VS Code Generated Files
+.vscode
+
 # 草稿
-_draft
+# _draft
